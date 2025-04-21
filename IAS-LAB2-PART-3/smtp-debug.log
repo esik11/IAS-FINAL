@@ -1,0 +1,2730 @@
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-22ac7b8ebfasm117945625ad.53 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-22ac7b8ebfasm117945625ad.53 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-22ac7b8ebfasm117945625ad.53 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d9443c01a7336-22ac7b8ebfasm117945625ad.53 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 17:03:22 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <jHRuWRiRjV6fs2ZOxQCpYVHqtSkaKXfXTIEXQFCY8mo@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_jHRuWRiRjV6fs2ZOxQCpYVHqtSkaKXfXTIEXQFCY8mo"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_jHRuWRiRjV6fs2ZOxQCpYVHqtSkaKXfXTIEXQFCY8mo
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 132135. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_jHRuWRiRjV6fs2ZOxQCpYVHqtSkaKXfXTIEXQFCY8mo
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>132135</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_jHRuWRiRjV6fs2ZOxQCpYVHqtSkaKXfXTIEXQFCY8mo--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744729406 d9443c01a7336-22ac7b8ebfasm117945625ad.53 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-22ac7b8ebfasm117945625ad.53 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-22ac7b8c3c1sm118940245ad.60 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-22ac7b8c3c1sm118940245ad.60 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-22ac7b8c3c1sm118940245ad.60 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d9443c01a7336-22ac7b8c3c1sm118940245ad.60 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 17:04:04 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <GvgZpqTu2S8mFX2ap33CCvlcZ2lQXQQ1daB4tdRozA@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_GvgZpqTu2S8mFX2ap33CCvlcZ2lQXQQ1daB4tdRozA"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_GvgZpqTu2S8mFX2ap33CCvlcZ2lQXQQ1daB4tdRozA
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 128147. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_GvgZpqTu2S8mFX2ap33CCvlcZ2lQXQQ1daB4tdRozA
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>128147</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_GvgZpqTu2S8mFX2ap33CCvlcZ2lQXQQ1daB4tdRozA--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744729447 d9443c01a7336-22ac7b8c3c1sm118940245ad.60 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-22ac7b8c3c1sm118940245ad.60 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-306df08f71dsm13271939a91.23 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-306df08f71dsm13271939a91.23 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-306df08f71dsm13271939a91.23 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-306df08f71dsm13271939a91.23 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 17:34:54 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <rLEY7vcviawr4r6TU9x946CWj0e4kznjJW0uPP0yLg@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_rLEY7vcviawr4r6TU9x946CWj0e4kznjJW0uPP0yLg"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_rLEY7vcviawr4r6TU9x946CWj0e4kznjJW0uPP0yLg
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 730723. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_rLEY7vcviawr4r6TU9x946CWj0e4kznjJW0uPP0yLg
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>730723</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_rLEY7vcviawr4r6TU9x946CWj0e4kznjJW0uPP0yLg--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744731297 98e67ed59e1d1-306df08f71dsm13271939a91.23 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-306df08f71dsm13271939a91.23 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-306df07fd74sm13324313a91.16 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-306df07fd74sm13324313a91.16 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-306df07fd74sm13324313a91.16 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-306df07fd74sm13324313a91.16 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 17:36:02 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <GyehxudvZZ11PYJgZ1irlKSPP0vsHur6oREoymZi7FM@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_GyehxudvZZ11PYJgZ1irlKSPP0vsHur6oREoymZi7FM"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_GyehxudvZZ11PYJgZ1irlKSPP0vsHur6oREoymZi7FM
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 781290. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_GyehxudvZZ11PYJgZ1irlKSPP0vsHur6oREoymZi7FM
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>781290</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_GyehxudvZZ11PYJgZ1irlKSPP0vsHur6oREoymZi7FM--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744731364 98e67ed59e1d1-306df07fd74sm13324313a91.16 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-306df07fd74sm13324313a91.16 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-22ac7c97298sm119549725ad.138 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-22ac7c97298sm119549725ad.138 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-22ac7c97298sm119549725ad.138 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d9443c01a7336-22ac7c97298sm119549725ad.138 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 17:41:15 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <v4zZUhKbKLK0x44r9hZbRAWQKKJoLoooLXNFguruB0@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_v4zZUhKbKLK0x44r9hZbRAWQKKJoLoooLXNFguruB0"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_v4zZUhKbKLK0x44r9hZbRAWQKKJoLoooLXNFguruB0
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 449094. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_v4zZUhKbKLK0x44r9hZbRAWQKKJoLoooLXNFguruB0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>449094</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_v4zZUhKbKLK0x44r9hZbRAWQKKJoLoooLXNFguruB0--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744731678 d9443c01a7336-22ac7c97298sm119549725ad.138 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-22ac7c97298sm119549725ad.138 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-b02a0cf3604sm11292018a12.25 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-b02a0cf3604sm11292018a12.25 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-b02a0cf3604sm11292018a12.25 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-b02a0cf3604sm11292018a12.25 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 17:47:57 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <YZP7RbHahKUr6AE7V15Y2a3ike7JTWuQlIEuGSeiM@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_YZP7RbHahKUr6AE7V15Y2a3ike7JTWuQlIEuGSeiM"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_YZP7RbHahKUr6AE7V15Y2a3ike7JTWuQlIEuGSeiM
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 534958. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_YZP7RbHahKUr6AE7V15Y2a3ike7JTWuQlIEuGSeiM
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>534958</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_YZP7RbHahKUr6AE7V15Y2a3ike7JTWuQlIEuGSeiM--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744732080 41be03b00d2f7-b02a0cf3604sm11292018a12.25 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-b02a0cf3604sm11292018a12.25 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-73bd21e0ba0sm8648622b3a.83 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-73bd21e0ba0sm8648622b3a.83 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-73bd21e0ba0sm8648622b3a.83 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-73bd21e0ba0sm8648622b3a.83 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 17:48:33 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <ahgVaei3dn1z2gHyHxN0hslI9nQqMAIm4tXzPcgYalM@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_ahgVaei3dn1z2gHyHxN0hslI9nQqMAIm4tXzPcgYalM"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_ahgVaei3dn1z2gHyHxN0hslI9nQqMAIm4tXzPcgYalM
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 656527. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_ahgVaei3dn1z2gHyHxN0hslI9nQqMAIm4tXzPcgYalM
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>656527</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_ahgVaei3dn1z2gHyHxN0hslI9nQqMAIm4tXzPcgYalM--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744732116 d2e1a72fcca58-73bd21e0ba0sm8648622b3a.83 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-73bd21e0ba0sm8648622b3a.83 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-22ac7c95ca4sm119709465ad.124 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-22ac7c95ca4sm119709465ad.124 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-22ac7c95ca4sm119709465ad.124 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d9443c01a7336-22ac7c95ca4sm119709465ad.124 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:04:12 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <MVvkKshZ8vl6URnP5yPpdTpk49cDrqx4RrKlezjS9dA@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_MVvkKshZ8vl6URnP5yPpdTpk49cDrqx4RrKlezjS9dA"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_MVvkKshZ8vl6URnP5yPpdTpk49cDrqx4RrKlezjS9dA
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 120775. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_MVvkKshZ8vl6URnP5yPpdTpk49cDrqx4RrKlezjS9dA
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>120775</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_MVvkKshZ8vl6URnP5yPpdTpk49cDrqx4RrKlezjS9dA--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744733054 d9443c01a7336-22ac7c95ca4sm119709465ad.124 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-22ac7c95ca4sm119709465ad.124 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-22ac7b8afeesm119587245ad.73 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-22ac7b8afeesm119587245ad.73 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-22ac7b8afeesm119587245ad.73 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d9443c01a7336-22ac7b8afeesm119587245ad.73 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:10:42 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <zUraXVYDh4OiblXXvgxXpWcarZnhsADgyUJtobCvI@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_zUraXVYDh4OiblXXvgxXpWcarZnhsADgyUJtobCvI"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_zUraXVYDh4OiblXXvgxXpWcarZnhsADgyUJtobCvI
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 623424. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_zUraXVYDh4OiblXXvgxXpWcarZnhsADgyUJtobCvI
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>623424</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_zUraXVYDh4OiblXXvgxXpWcarZnhsADgyUJtobCvI--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744733445 d9443c01a7336-22ac7b8afeesm119587245ad.73 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-22ac7b8afeesm119587245ad.73 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-306dd04e9a8sm13539640a91.0 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-306dd04e9a8sm13539640a91.0 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-306dd04e9a8sm13539640a91.0 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-306dd04e9a8sm13539640a91.0 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:15:46 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <Sq98NZPJnUPRtdKqB04u9XuSLhVRDj45N8RstDS0@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_Sq98NZPJnUPRtdKqB04u9XuSLhVRDj45N8RstDS0"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_Sq98NZPJnUPRtdKqB04u9XuSLhVRDj45N8RstDS0
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 201547. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_Sq98NZPJnUPRtdKqB04u9XuSLhVRDj45N8RstDS0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>201547</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_Sq98NZPJnUPRtdKqB04u9XuSLhVRDj45N8RstDS0--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744733750 98e67ed59e1d1-306dd04e9a8sm13539640a91.0 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-306dd04e9a8sm13539640a91.0 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-73bd230e8b1sm8965856b3a.148 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-73bd230e8b1sm8965856b3a.148 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-73bd230e8b1sm8965856b3a.148 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-73bd230e8b1sm8965856b3a.148 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:16:09 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <nwsLebuxI6e6Y3SqZKmEHMQuv9yOeK6ZVn4lFVCAk@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_nwsLebuxI6e6Y3SqZKmEHMQuv9yOeK6ZVn4lFVCAk"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_nwsLebuxI6e6Y3SqZKmEHMQuv9yOeK6ZVn4lFVCAk
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 227882. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_nwsLebuxI6e6Y3SqZKmEHMQuv9yOeK6ZVn4lFVCAk
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>227882</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_nwsLebuxI6e6Y3SqZKmEHMQuv9yOeK6ZVn4lFVCAk--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744733773 d2e1a72fcca58-73bd230e8b1sm8965856b3a.148 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-73bd230e8b1sm8965856b3a.148 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-b02a08180e2sm11341240a12.14 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-b02a08180e2sm11341240a12.14 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-b02a08180e2sm11341240a12.14 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-b02a08180e2sm11341240a12.14 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:20:05 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <0bxp0Mr9iGCNkQAOHVP80UpXQLbYawDwDGhAWZ2N5k@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_0bxp0Mr9iGCNkQAOHVP80UpXQLbYawDwDGhAWZ2N5k"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_0bxp0Mr9iGCNkQAOHVP80UpXQLbYawDwDGhAWZ2N5k
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 311531. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_0bxp0Mr9iGCNkQAOHVP80UpXQLbYawDwDGhAWZ2N5k
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>311531</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_0bxp0Mr9iGCNkQAOHVP80UpXQLbYawDwDGhAWZ2N5k--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744734008 41be03b00d2f7-b02a08180e2sm11341240a12.14 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-b02a08180e2sm11341240a12.14 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-73bd1fe6b4esm8725317b3a.0 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-73bd1fe6b4esm8725317b3a.0 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-73bd1fe6b4esm8725317b3a.0 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-73bd1fe6b4esm8725317b3a.0 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:21:35 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <ZcKxUATL66pL90ZWJbUJZKBGZaXuiaTidsookjKeApk@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_ZcKxUATL66pL90ZWJbUJZKBGZaXuiaTidsookjKeApk"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_ZcKxUATL66pL90ZWJbUJZKBGZaXuiaTidsookjKeApk
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 531363. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_ZcKxUATL66pL90ZWJbUJZKBGZaXuiaTidsookjKeApk
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>531363</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_ZcKxUATL66pL90ZWJbUJZKBGZaXuiaTidsookjKeApk--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744734099 d2e1a72fcca58-73bd1fe6b4esm8725317b3a.0 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-73bd1fe6b4esm8725317b3a.0 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-73bd21c670esm8960170b3a.69 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-73bd21c670esm8960170b3a.69 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-73bd21c670esm8960170b3a.69 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-73bd21c670esm8960170b3a.69 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:25:55 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <kjyC4bv7l77FwxADSfInnneXzVS9jjEEjLFk7IYuo@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_kjyC4bv7l77FwxADSfInnneXzVS9jjEEjLFk7IYuo"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_kjyC4bv7l77FwxADSfInnneXzVS9jjEEjLFk7IYuo
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 656372. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_kjyC4bv7l77FwxADSfInnneXzVS9jjEEjLFk7IYuo
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>656372</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_kjyC4bv7l77FwxADSfInnneXzVS9jjEEjLFk7IYuo--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744734358 d2e1a72fcca58-73bd21c670esm8960170b3a.69 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-73bd21c670esm8960170b3a.69 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 41be03b00d2f7-b02a331b481sm11219536a12.75 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 41be03b00d2f7-b02a331b481sm11219536a12.75 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 41be03b00d2f7-b02a331b481sm11219536a12.75 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 41be03b00d2f7-b02a331b481sm11219536a12.75 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:27:30 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <KtXwX0P4u2B8IfordO4XgOeDqIXPgjchn2VadCY1QDE@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_KtXwX0P4u2B8IfordO4XgOeDqIXPgjchn2VadCY1QDE"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_KtXwX0P4u2B8IfordO4XgOeDqIXPgjchn2VadCY1QDE
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 168502. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_KtXwX0P4u2B8IfordO4XgOeDqIXPgjchn2VadCY1QDE
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>168502</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_KtXwX0P4u2B8IfordO4XgOeDqIXPgjchn2VadCY1QDE--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744734452 41be03b00d2f7-b02a331b481sm11219536a12.75 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 41be03b00d2f7-b02a331b481sm11219536a12.75 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-22ac7ccb574sm119608555ad.227 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-22ac7ccb574sm119608555ad.227 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-22ac7ccb574sm119608555ad.227 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d9443c01a7336-22ac7ccb574sm119608555ad.227 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:28:44 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <kHj7Sua4QgIArbr4Tdel4uJWkURQ3HJNxzmd54QvzxM@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_kHj7Sua4QgIArbr4Tdel4uJWkURQ3HJNxzmd54QvzxM"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_kHj7Sua4QgIArbr4Tdel4uJWkURQ3HJNxzmd54QvzxM
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 100441. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_kHj7Sua4QgIArbr4Tdel4uJWkURQ3HJNxzmd54QvzxM
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>100441</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_kHj7Sua4QgIArbr4Tdel4uJWkURQ3HJNxzmd54QvzxM--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744734527 d9443c01a7336-22ac7ccb574sm119608555ad.227 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-22ac7ccb574sm119608555ad.227 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-73bd2198acdsm9041488b3a.13 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-73bd2198acdsm9041488b3a.13 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-73bd2198acdsm9041488b3a.13 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-73bd2198acdsm9041488b3a.13 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:29:43 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <1FZ7w6OSdfk77t28hdtAJjCysFXjjXQllGeQq4UcXZs@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_1FZ7w6OSdfk77t28hdtAJjCysFXjjXQllGeQq4UcXZs"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_1FZ7w6OSdfk77t28hdtAJjCysFXjjXQllGeQq4UcXZs
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 287611. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_1FZ7w6OSdfk77t28hdtAJjCysFXjjXQllGeQq4UcXZs
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>287611</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_1FZ7w6OSdfk77t28hdtAJjCysFXjjXQllGeQq4UcXZs--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744734586 d2e1a72fcca58-73bd2198acdsm9041488b3a.13 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-73bd2198acdsm9041488b3a.13 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-73bd230ddaasm8971275b3a.138 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-73bd230ddaasm8971275b3a.138 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-73bd230ddaasm8971275b3a.138 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-73bd230ddaasm8971275b3a.138 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:31:20 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <mKWhdMw8WAgfSLMBO9RGk8kytFSfQBWBtrqEVe7LBw@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_mKWhdMw8WAgfSLMBO9RGk8kytFSfQBWBtrqEVe7LBw"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_mKWhdMw8WAgfSLMBO9RGk8kytFSfQBWBtrqEVe7LBw
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 808409. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_mKWhdMw8WAgfSLMBO9RGk8kytFSfQBWBtrqEVe7LBw
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>808409</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_mKWhdMw8WAgfSLMBO9RGk8kytFSfQBWBtrqEVe7LBw--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744734683 d2e1a72fcca58-73bd230ddaasm8971275b3a.138 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-73bd230ddaasm8971275b3a.138 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-22ac7ccb34fsm119875815ad.228 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-22ac7ccb34fsm119875815ad.228 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-22ac7ccb34fsm119875815ad.228 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d9443c01a7336-22ac7ccb34fsm119875815ad.228 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:53:21 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <R3b3kFBE3iAAvJIbJxkO9LqXDguNpTmyho9a6lJDypc@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_R3b3kFBE3iAAvJIbJxkO9LqXDguNpTmyho9a6lJDypc"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_R3b3kFBE3iAAvJIbJxkO9LqXDguNpTmyho9a6lJDypc
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 826028. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_R3b3kFBE3iAAvJIbJxkO9LqXDguNpTmyho9a6lJDypc
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>826028</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_R3b3kFBE3iAAvJIbJxkO9LqXDguNpTmyho9a6lJDypc--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744736004 d9443c01a7336-22ac7ccb34fsm119875815ad.228 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-22ac7ccb34fsm119875815ad.228 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-22ac7b8b2ccsm120300575ad.70 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-22ac7b8b2ccsm120300575ad.70 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-22ac7b8b2ccsm120300575ad.70 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d9443c01a7336-22ac7b8b2ccsm120300575ad.70 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:58:23 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <eLPun2IIXqAgQ1gkfFgaGR3dvzTugBmaf7hyVOA8@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_eLPun2IIXqAgQ1gkfFgaGR3dvzTugBmaf7hyVOA8"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_eLPun2IIXqAgQ1gkfFgaGR3dvzTugBmaf7hyVOA8
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 515574. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_eLPun2IIXqAgQ1gkfFgaGR3dvzTugBmaf7hyVOA8
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>515574</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_eLPun2IIXqAgQ1gkfFgaGR3dvzTugBmaf7hyVOA8--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744736306 d9443c01a7336-22ac7b8b2ccsm120300575ad.70 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-22ac7b8b2ccsm120300575ad.70 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-73bd230e578sm9030066b3a.144 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [124.217.126.238]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-73bd230e578sm9030066b3a.144 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jeorgeandreielevencionado@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-73bd230e578sm9030066b3a.144 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-73bd230e578sm9030066b3a.144 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 15 Apr 2025 18:59:17 +0200
+
+CLIENT -> SERVER: To: jeorgeandreielevencionado@gmail.com
+
+CLIENT -> SERVER: From: IAS Authentication <jeorgeandreielevencionado@gmail.com>
+
+CLIENT -> SERVER: Subject: Your OTP for Authentication
+
+CLIENT -> SERVER: Message-ID: <VtMHqfXVHARb1Qy4MS7aepNL2gYKUZdoCYOYNNCPU@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+CLIENT -> SERVER:  boundary="b1=_VtMHqfXVHARb1Qy4MS7aepNL2gYKUZdoCYOYNNCPU"
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_VtMHqfXVHARb1Qy4MS7aepNL2gYKUZdoCYOYNNCPU
+
+CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: Your OTP is: 965639. This OTP will expire in 1 minute.
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_VtMHqfXVHARb1Qy4MS7aepNL2gYKUZdoCYOYNNCPU
+
+CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                 <html>
+
+CLIENT -> SERVER:                 <body style='font-family: Arial, sans-serif;'>
+
+CLIENT -> SERVER:                     <h2>Your One-Time Password (OTP)</h2>
+
+CLIENT -> SERVER:                     <p>Hello,</p>
+
+CLIENT -> SERVER:                     <p>Your OTP for authentication is: <strong style='font-size: 24px;'>965639</strong></p>
+
+CLIENT -> SERVER:                     <p>This OTP will expire in 1 minute.</p>
+
+CLIENT -> SERVER:                     <p>If you didn't request this OTP, please ignore this email.</p>
+
+CLIENT -> SERVER:                     <br>
+
+CLIENT -> SERVER:                     <p>Best regards,<br>IAS Authentication Team</p>
+
+CLIENT -> SERVER:                 </body>
+
+CLIENT -> SERVER:                 </html>
+
+CLIENT -> SERVER:             
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: --b1=_VtMHqfXVHARb1Qy4MS7aepNL2gYKUZdoCYOYNNCPU--
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1744736360 d2e1a72fcca58-73bd230e578sm9030066b3a.144 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-73bd230e578sm9030066b3a.144 - gsmtp
+
