@@ -205,3 +205,102 @@ Stack trace:
 [15-Apr-2025 18:59:17 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
 [15-Apr-2025 18:59:21 Europe/Berlin] Email send result: Success
 [2025-04-15 18:59:21] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-22 17:51:40] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-22 17:51:41] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"592202\"}"
+[2025-04-22 17:51:41] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"592202"}
+[2025-04-22 17:51:41] Creating EmailController instance
+[22-Apr-2025 17:51:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer" not found in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\controllers\EmailController.php:19
+Stack trace:
+#0 C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\send-otp.php(72): App\Controllers\EmailController->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\controllers\EmailController.php on line 19
+[2025-04-22 17:52:56] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-22 17:52:56] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"554870\"}"
+[2025-04-22 17:52:56] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"554870"}
+[2025-04-22 17:52:56] Creating EmailController instance
+[22-Apr-2025 17:52:56 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-22 17:52:56] Sending OTP to jeorgeandreielevencionado@gmail.com
+[22-Apr-2025 17:52:56 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[22-Apr-2025 17:53:00 Europe/Berlin] Email send result: Success
+[2025-04-22 17:53:00] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-22 17:56:21] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-22 17:56:21] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"883006\"}"
+[2025-04-22 17:56:21] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"883006"}
+[2025-04-22 17:56:21] Creating EmailController instance
+[22-Apr-2025 17:56:21 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-22 17:56:21] Sending OTP to jeorgeandreielevencionado@gmail.com
+[22-Apr-2025 17:56:21 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[22-Apr-2025 17:56:25 Europe/Berlin] Email send result: Success
+[2025-04-22 17:56:25] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-22 18:03:20] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-22 18:03:20] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"800684\"}"
+[2025-04-22 18:03:20] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"800684"}
+[2025-04-22 18:03:20] Creating EmailController instance
+[22-Apr-2025 18:03:20 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-22 18:03:20] Sending OTP to jeorgeandreielevencionado@gmail.com
+[22-Apr-2025 18:03:20 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[22-Apr-2025 18:03:25 Europe/Berlin] Email send result: Success
+[2025-04-22 18:03:25] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-24 18:50:14] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-24 18:50:14] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"195835\"}"
+[2025-04-24 18:50:14] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"195835"}
+[2025-04-24 18:50:14] Creating EmailController instance
+[24-Apr-2025 18:50:14 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-24 18:50:14] Sending OTP to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 18:50:14 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 18:50:19 Europe/Berlin] Email send result: Success
+[2025-04-24 18:50:19] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-24 18:55:18] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-24 18:55:18] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"439847\"}"
+[2025-04-24 18:55:18] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"439847"}
+[2025-04-24 18:55:18] Creating EmailController instance
+[24-Apr-2025 18:55:18 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-24 18:55:18] Sending OTP to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 18:55:18 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 18:55:22 Europe/Berlin] Email send result: Success
+[2025-04-24 18:55:22] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-24 19:08:15] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-24 19:08:15] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"435365\"}"
+[2025-04-24 19:08:15] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"435365"}
+[2025-04-24 19:08:15] Creating EmailController instance
+[24-Apr-2025 19:08:15 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-24 19:08:15] Sending OTP to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 19:08:15 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 19:08:20 Europe/Berlin] Email send result: Success
+[2025-04-24 19:08:20] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-24 19:14:20] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-24 19:14:20] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"832669\"}"
+[2025-04-24 19:14:20] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"832669"}
+[2025-04-24 19:14:20] Creating EmailController instance
+[24-Apr-2025 19:14:20 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-24 19:14:20] Sending OTP to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 19:14:20 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 19:14:24 Europe/Berlin] Email send result: Success
+[2025-04-24 19:14:24] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-24 19:29:25] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-24 19:29:25] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"345884\"}"
+[2025-04-24 19:29:25] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"345884"}
+[2025-04-24 19:29:25] Creating EmailController instance
+[24-Apr-2025 19:29:25 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-24 19:29:25] Sending OTP to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 19:29:25 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[24-Apr-2025 19:29:29 Europe/Berlin] Email send result: Success
+[2025-04-24 19:29:29] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-25 12:29:16] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-25 12:29:16] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"568255\"}"
+[2025-04-25 12:29:16] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"568255"}
+[2025-04-25 12:29:16] Creating EmailController instance
+[25-Apr-2025 12:29:16 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-25 12:29:16] Sending OTP to jeorgeandreielevencionado@gmail.com
+[25-Apr-2025 12:29:16 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[25-Apr-2025 12:29:20 Europe/Berlin] Email send result: Success
+[2025-04-25 12:29:20] OTP sent successfully to jeorgeandreielevencionado@gmail.com
+[2025-04-26 19:10:58] OTP API endpoint called - HTTP METHOD: POST
+[2025-04-26 19:10:58] Raw input "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"otp\":\"464420\"}"
+[2025-04-26 19:10:58] Decoded data {"email":"jeorgeandreielevencionado@gmail.com","otp":"464420"}
+[2025-04-26 19:10:58] Creating EmailController instance
+[26-Apr-2025 19:10:58 Europe/Berlin] PHPMailer setup completed successfully
+[2025-04-26 19:10:58] Sending OTP to jeorgeandreielevencionado@gmail.com
+[26-Apr-2025 19:10:58 Europe/Berlin] Attempting to send email to jeorgeandreielevencionado@gmail.com
+[26-Apr-2025 19:11:02 Europe/Berlin] Email send result: Success
+[2025-04-26 19:11:02] OTP sent successfully to jeorgeandreielevencionado@gmail.com

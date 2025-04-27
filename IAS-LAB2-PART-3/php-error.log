@@ -28,3 +28,113 @@
 [15-Apr-2025 18:59:37 Europe/Berlin] [Debug] Received request {"method":"POST","input":"{\"email\":\"jeorgeandreielevencionado@gmail.com\"}"}
 [15-Apr-2025 18:59:37 Europe/Berlin] [Debug] Parsed input {"email":"jeorgeandreielevencionado@gmail.com"}
 [15-Apr-2025 18:59:37 Europe/Berlin] [Debug] Session created {"email":"jeorgeandreielevencionado@gmail.com","session_id":"44epiqc1pdc9hf67jmojtvv0vk"}
+[22-Apr-2025 18:03:32 Europe/Berlin] [Debug] Received request {"method":"POST","input":"{\"email\":\"jeorgeandreielevencionado@gmail.com\"}"}
+[22-Apr-2025 18:03:32 Europe/Berlin] [Debug] Parsed input {"email":"jeorgeandreielevencionado@gmail.com"}
+[22-Apr-2025 18:03:32 Europe/Berlin] [Debug] Session created {"email":"jeorgeandreielevencionado@gmail.com","session_id":"f6ta37q88f59l3bog8unl5daju"}
+[24-Apr-2025 18:46:25 Europe/Berlin] [Debug] Received registration request {"method":"POST","content_type":"application\/json"}
+[24-Apr-2025 18:46:25 Europe/Berlin] [Debug] Raw input received "{\"name\":\"JEORGE\",\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\",\"firebase_uid\":\"j1c1SkAuowYauNFMhVjkPrSehAG2\",\"backup_codes\":[\"W6OOH4KS\",\"7I08YSG0\",\"EJYQMXYT\",\"64LUYNZ2\",\"UBBABPRP\",\"I3W6SFDB\",\"IV877KFI\",\"6F5D3ZP0\"]}"
+[24-Apr-2025 18:46:25 Europe/Berlin] [Debug] Parsed input data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","password":"@Password1","firebase_uid":"j1c1SkAuowYauNFMhVjkPrSehAG2","backup_codes":["W6OOH4KS","7I08YSG0","EJYQMXYT","64LUYNZ2","UBBABPRP","I3W6SFDB","IV877KFI","6F5D3ZP0"]}
+[24-Apr-2025 18:46:25 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 55
+[24-Apr-2025 18:46:25 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 58
+[24-Apr-2025 18:46:25 Europe/Berlin] [Debug] Sanitized data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","firebase_uid":"j1c1SkAuowYauNFMhVjkPrSehAG2","backup_codes_count":8}
+[24-Apr-2025 18:46:25 Europe/Berlin] [Debug] Database connection established 
+[24-Apr-2025 18:46:25 Europe/Berlin] [Debug] User inserted {"user_id":"3"}
+[24-Apr-2025 18:46:25 Europe/Berlin] [Debug] Backup codes inserted 
+[24-Apr-2025 18:46:25 Europe/Berlin] [Debug] Transaction committed 
+[24-Apr-2025 18:50:25 Europe/Berlin] [Debug] Received request {"method":"POST","input":"{\"email\":\"jeorgeandreielevencionado@gmail.com\"}"}
+[24-Apr-2025 18:50:25 Europe/Berlin] [Debug] Parsed input {"email":"jeorgeandreielevencionado@gmail.com"}
+[24-Apr-2025 18:50:25 Europe/Berlin] [Debug] Session created {"email":"jeorgeandreielevencionado@gmail.com","session_id":"hvp7na14insuvk24qhtuofjkho"}
+[24-Apr-2025 18:55:31 Europe/Berlin] [Debug] Received request {"method":"POST","input":"{\"email\":\"jeorgeandreielevencionado@gmail.com\"}"}
+[24-Apr-2025 18:55:31 Europe/Berlin] [Debug] Parsed input {"email":"jeorgeandreielevencionado@gmail.com"}
+[24-Apr-2025 18:55:31 Europe/Berlin] [Debug] Session created {"email":"jeorgeandreielevencionado@gmail.com","session_id":"85k2q0m20tqalb8t4r67hqggkb"}
+[24-Apr-2025 19:07:34 Europe/Berlin] [Debug] Received registration request {"method":"POST","content_type":"application\/json"}
+[24-Apr-2025 19:07:34 Europe/Berlin] [Debug] Raw input received "{\"name\":\"JEORGE\",\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\",\"firebase_uid\":\"4o3wZON2JVYfHGNdgSE3gHQeHV12\",\"backup_codes\":[\"PY6MKXJI\",\"BSERZ6JN\",\"ZDH1OOIS\",\"SPU4GTAD\",\"X80QFFRB\",\"JZIGGUZO\",\"8D16WC3V\",\"1LG8XD1H\"]}"
+[24-Apr-2025 19:07:34 Europe/Berlin] [Debug] Parsed input data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","password":"@Password1","firebase_uid":"4o3wZON2JVYfHGNdgSE3gHQeHV12","backup_codes":["PY6MKXJI","BSERZ6JN","ZDH1OOIS","SPU4GTAD","X80QFFRB","JZIGGUZO","8D16WC3V","1LG8XD1H"]}
+[24-Apr-2025 19:07:34 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 55
+[24-Apr-2025 19:07:34 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 58
+[24-Apr-2025 19:07:34 Europe/Berlin] [Debug] Sanitized data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","firebase_uid":"4o3wZON2JVYfHGNdgSE3gHQeHV12","backup_codes_count":8}
+[24-Apr-2025 19:07:34 Europe/Berlin] [Debug] Database connection established 
+[24-Apr-2025 19:07:34 Europe/Berlin] [Debug] User inserted {"user_id":"1"}
+[24-Apr-2025 19:07:34 Europe/Berlin] [Debug] Backup codes inserted 
+[24-Apr-2025 19:07:34 Europe/Berlin] [Debug] Transaction committed 
+[24-Apr-2025 19:08:51 Europe/Berlin] [Debug] Received request {"method":"POST","input":"{\"email\":\"jeorgeandreielevencionado@gmail.com\"}"}
+[24-Apr-2025 19:08:51 Europe/Berlin] [Debug] Parsed input {"email":"jeorgeandreielevencionado@gmail.com"}
+[24-Apr-2025 19:08:51 Europe/Berlin] [Debug] Session created {"email":"jeorgeandreielevencionado@gmail.com","session_id":"f8dr3vvrjhu237jkrnqmlati4b"}
+[24-Apr-2025 19:14:03 Europe/Berlin] [Debug] Received registration request {"method":"POST","content_type":"application\/json"}
+[24-Apr-2025 19:14:03 Europe/Berlin] [Debug] Raw input received "{\"name\":\"JEORGE\",\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\",\"firebase_uid\":\"IxGw2nYuyNWY8vXkbmslzDoNwA03\",\"backup_codes\":[\"THTADDJ4\",\"ORFUFAEK\",\"US7S99NZ\",\"1G593JX1\",\"IC8PK4L1\",\"NVE70ZPG\",\"DS1X5IR1\",\"CQR2OOEC\"]}"
+[24-Apr-2025 19:14:03 Europe/Berlin] [Debug] Parsed input data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","password":"@Password1","firebase_uid":"IxGw2nYuyNWY8vXkbmslzDoNwA03","backup_codes":["THTADDJ4","ORFUFAEK","US7S99NZ","1G593JX1","IC8PK4L1","NVE70ZPG","DS1X5IR1","CQR2OOEC"]}
+[24-Apr-2025 19:14:03 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 55
+[24-Apr-2025 19:14:03 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 58
+[24-Apr-2025 19:14:03 Europe/Berlin] [Debug] Sanitized data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","firebase_uid":"IxGw2nYuyNWY8vXkbmslzDoNwA03","backup_codes_count":8}
+[24-Apr-2025 19:14:03 Europe/Berlin] [Debug] Database connection established 
+[24-Apr-2025 19:14:03 Europe/Berlin] [Debug] User inserted {"user_id":"2"}
+[24-Apr-2025 19:14:03 Europe/Berlin] [Debug] Backup codes inserted 
+[24-Apr-2025 19:14:03 Europe/Berlin] [Debug] Transaction committed 
+[24-Apr-2025 19:14:33 Europe/Berlin] [Debug] Received request {"method":"POST","input":"{\"email\":\"jeorgeandreielevencionado@gmail.com\"}"}
+[24-Apr-2025 19:14:33 Europe/Berlin] [Debug] Parsed input {"email":"jeorgeandreielevencionado@gmail.com"}
+[24-Apr-2025 19:14:33 Europe/Berlin] [Debug] Session created {"email":"jeorgeandreielevencionado@gmail.com","session_id":"alr96fpr4dflkkmqk8rd922m63"}
+[24-Apr-2025 19:22:47 Europe/Berlin] [Debug] Received registration request {"method":"POST","content_type":"application\/json"}
+[24-Apr-2025 19:22:47 Europe/Berlin] [Debug] Raw input received "{\"name\":\"JEORGE\",\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\",\"firebase_uid\":\"7TyGqiRLzEOZppGKIy2bQsSMdZn1\",\"backup_codes\":[\"Z85Z6JZZ\",\"0AGON6RP\",\"L03JWA47\",\"XSV3SZMF\",\"QU8BXTTN\",\"VVKERKCO\",\"3LHUXXS3\",\"V912BE9S\"]}"
+[24-Apr-2025 19:22:47 Europe/Berlin] [Debug] Parsed input data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","password":"@Password1","firebase_uid":"7TyGqiRLzEOZppGKIy2bQsSMdZn1","backup_codes":["Z85Z6JZZ","0AGON6RP","L03JWA47","XSV3SZMF","QU8BXTTN","VVKERKCO","3LHUXXS3","V912BE9S"]}
+[24-Apr-2025 19:22:47 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 55
+[24-Apr-2025 19:22:47 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 58
+[24-Apr-2025 19:22:47 Europe/Berlin] [Debug] Sanitized data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","firebase_uid":"7TyGqiRLzEOZppGKIy2bQsSMdZn1","backup_codes_count":8}
+[24-Apr-2025 19:22:47 Europe/Berlin] [Debug] Database connection established 
+[24-Apr-2025 19:22:47 Europe/Berlin] [Debug] User inserted {"user_id":"3"}
+[24-Apr-2025 19:22:47 Europe/Berlin] [Debug] Backup codes inserted 
+[24-Apr-2025 19:22:47 Europe/Berlin] [Debug] Transaction committed 
+[24-Apr-2025 19:27:05 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"12313\"}"
+[24-Apr-2025 19:27:05 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"12313"}
+[24-Apr-2025 19:29:00 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"1231312311231\"}"
+[24-Apr-2025 19:29:00 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"1231312311231"}
+[24-Apr-2025 19:29:06 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"123131231123112x31\"}"
+[24-Apr-2025 19:29:06 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"123131231123112x31"}
+[24-Apr-2025 19:29:08 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"123131231123112x312312313\"}"
+[24-Apr-2025 19:29:08 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"123131231123112x312312313"}
+[24-Apr-2025 19:29:25 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\"}"
+[24-Apr-2025 19:29:25 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"@Password1"}
+[24-Apr-2025 19:29:39 Europe/Berlin] [Debug] Received request {"method":"POST","input":"{\"email\":\"jeorgeandreielevencionado@gmail.com\"}"}
+[24-Apr-2025 19:29:39 Europe/Berlin] [Debug] Parsed input {"email":"jeorgeandreielevencionado@gmail.com"}
+[24-Apr-2025 19:29:39 Europe/Berlin] [Debug] Session created {"email":"jeorgeandreielevencionado@gmail.com","session_id":"rqiinjqq411orijn520gobnr31"}
+[25-Apr-2025 12:28:56 Europe/Berlin] [Debug] Received registration request {"method":"POST","content_type":"application\/json"}
+[25-Apr-2025 12:28:56 Europe/Berlin] [Debug] Raw input received "{\"name\":\"JEORGE\",\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\",\"firebase_uid\":\"n8EVgOXuSMRNCdg7rbNm4BUyMvO2\",\"backup_codes\":[\"16MKP5BZ\",\"Q5K38YWU\",\"3N38Y73U\",\"VHWOYRHO\",\"8W535JZ1\",\"9SJ4U1JV\",\"IMYZRZIQ\",\"T87PNVEL\"]}"
+[25-Apr-2025 12:28:56 Europe/Berlin] [Debug] Parsed input data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","password":"@Password1","firebase_uid":"n8EVgOXuSMRNCdg7rbNm4BUyMvO2","backup_codes":["16MKP5BZ","Q5K38YWU","3N38Y73U","VHWOYRHO","8W535JZ1","9SJ4U1JV","IMYZRZIQ","T87PNVEL"]}
+[25-Apr-2025 12:28:56 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 55
+[25-Apr-2025 12:28:56 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 58
+[25-Apr-2025 12:28:56 Europe/Berlin] [Debug] Sanitized data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","firebase_uid":"n8EVgOXuSMRNCdg7rbNm4BUyMvO2","backup_codes_count":8}
+[25-Apr-2025 12:28:56 Europe/Berlin] [Debug] Database connection established 
+[25-Apr-2025 12:28:56 Europe/Berlin] [Debug] User inserted {"user_id":"4"}
+[25-Apr-2025 12:28:56 Europe/Berlin] [Debug] Backup codes inserted 
+[25-Apr-2025 12:28:56 Europe/Berlin] [Debug] Transaction committed 
+[25-Apr-2025 12:29:16 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\"}"
+[25-Apr-2025 12:29:16 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"@Password1"}
+[25-Apr-2025 12:29:26 Europe/Berlin] [Debug] Received request {"method":"POST","input":"{\"email\":\"jeorgeandreielevencionado@gmail.com\"}"}
+[25-Apr-2025 12:29:26 Europe/Berlin] [Debug] Parsed input {"email":"jeorgeandreielevencionado@gmail.com"}
+[25-Apr-2025 12:29:26 Europe/Berlin] [Debug] Session created {"email":"jeorgeandreielevencionado@gmail.com","session_id":"skjmpd4j4rm9jbbnovq5820m9r"}
+[25-Apr-2025 12:29:36 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"qweqw\"}"
+[25-Apr-2025 12:29:36 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"qweqw"}
+[25-Apr-2025 12:29:47 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"12312311313\"}"
+[25-Apr-2025 12:29:47 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"12312311313"}
+[25-Apr-2025 12:29:49 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"1231\"}"
+[25-Apr-2025 12:29:49 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"1231"}
+[25-Apr-2025 12:29:56 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"12311231312\"}"
+[25-Apr-2025 12:29:56 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"12311231312"}
+[25-Apr-2025 12:30:03 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"568255\"}"
+[25-Apr-2025 12:30:03 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"568255"}
+[25-Apr-2025 12:30:06 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\"}"
+[25-Apr-2025 12:30:06 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"@Password1"}
+[26-Apr-2025 19:10:37 Europe/Berlin] [Debug] Received registration request {"method":"POST","content_type":"application\/json"}
+[26-Apr-2025 19:10:37 Europe/Berlin] [Debug] Raw input received "{\"name\":\"JEORGE\",\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\",\"firebase_uid\":\"uGXtpK47BWZdYZMPwODsXEoKnzw1\",\"backup_codes\":[\"KVM7V2CT\",\"ROS0M34L\",\"XBDHB1TL\",\"2XT6WX16\",\"6UCAN2ZH\",\"087H8686\",\"YU92XJC5\",\"S6R4QQOV\"]}"
+[26-Apr-2025 19:10:37 Europe/Berlin] [Debug] Parsed input data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","password":"@Password1","firebase_uid":"uGXtpK47BWZdYZMPwODsXEoKnzw1","backup_codes":["KVM7V2CT","ROS0M34L","XBDHB1TL","2XT6WX16","6UCAN2ZH","087H8686","YU92XJC5","S6R4QQOV"]}
+[26-Apr-2025 19:10:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 55
+[26-Apr-2025 19:10:37 Europe/Berlin] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\IAS-FINAL\IAS-LAB2-PART-3\app\api\auth\register.php on line 58
+[26-Apr-2025 19:10:37 Europe/Berlin] [Debug] Sanitized data {"name":"JEORGE","email":"jeorgeandreielevencionado@gmail.com","firebase_uid":"uGXtpK47BWZdYZMPwODsXEoKnzw1","backup_codes_count":8}
+[26-Apr-2025 19:10:37 Europe/Berlin] [Debug] Database connection established 
+[26-Apr-2025 19:10:37 Europe/Berlin] [Debug] User inserted {"user_id":"5"}
+[26-Apr-2025 19:10:37 Europe/Berlin] [Debug] Backup codes inserted 
+[26-Apr-2025 19:10:37 Europe/Berlin] [Debug] Transaction committed 
+[26-Apr-2025 19:10:58 Europe/Berlin] [Debug] Raw input received "{\"email\":\"jeorgeandreielevencionado@gmail.com\",\"password\":\"@Password1\"}"
+[26-Apr-2025 19:10:58 Europe/Berlin] [Debug] Parsed input data {"email":"jeorgeandreielevencionado@gmail.com","password":"@Password1"}
+[26-Apr-2025 19:11:12 Europe/Berlin] [Debug] Received request {"method":"POST","input":"{\"email\":\"jeorgeandreielevencionado@gmail.com\"}"}
+[26-Apr-2025 19:11:12 Europe/Berlin] [Debug] Parsed input {"email":"jeorgeandreielevencionado@gmail.com"}
+[26-Apr-2025 19:11:12 Europe/Berlin] [Debug] Session created {"email":"jeorgeandreielevencionado@gmail.com","session_id":"6q6l89lcisp5lceg1s2tkl8rkc"}

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "583066212163",
+    "firebase_url": "https://laravel-auth-71bf8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "laravel-auth-71bf8",
+    "storage_bucket": "laravel-auth-71bf8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583066212163:android:adc37ad12ae99a7be941f6",
+        "android_client_info": {
+          "package_name": "com.example.iasauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583066212163-fr18ohqdtqbepppsbt0ssquj6jmcqmb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn9aZspufO4RhHZiDXXjScJ8FvAvSfzWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583066212163-fr18ohqdtqbepppsbt0ssquj6jmcqmb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583066212163:android:f0bb553b45b50518e941f6",
+        "android_client_info": {
+          "package_name": "com.example.iasauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583066212163-fr18ohqdtqbepppsbt0ssquj6jmcqmb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn9aZspufO4RhHZiDXXjScJ8FvAvSfzWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583066212163-fr18ohqdtqbepppsbt0ssquj6jmcqmb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

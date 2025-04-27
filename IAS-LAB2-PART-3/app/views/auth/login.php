@@ -1,6 +1,13 @@
 <?php
 session_start();
+session_regenerate_id(true); // Regenerate session ID for security
 session_destroy(); // Clear any existing session on login page
+
+// Set security headers
+header('X-Frame-Options: DENY');
+header('X-XSS-Protection: 1; mode=block');
+header('X-Content-Type-Options: nosniff');
+header('Strict-Transport-Security: max-age=31536000; includeSubDomains');
 ?>
 <!DOCTYPE html>
 <html lang="en">

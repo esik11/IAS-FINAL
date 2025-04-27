@@ -81,7 +81,7 @@ const verifyBackupCode = async (inputCode, email) => {
         console.log(`Verifying backup code for ${email}`);
         
         // First try to verify from the database
-        const response = await fetch('/IAS-LAB2-PART-3/app/api/auth/verify-backup-code.php', {
+        const response = await fetch('/IAS-FINAL/IAS-LAB2-PART-3/app/api/auth/verify-backup-code.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -220,7 +220,7 @@ const showOTPForm = (email, container) => {
 
             if (verification.valid) {
                 console.log('Verifying OTP and creating session...');
-                const response = await fetch('/IAS-LAB2-PART-3/app/api/verify-auth.php', {
+                const response = await fetch('/IAS-FINAL/IAS-LAB2-PART-3/app/api/verify-auth.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -238,7 +238,7 @@ const showOTPForm = (email, container) => {
                     console.log('Authentication successful, redirecting...');
                     showMessage('messageBox', 'Login successful! Redirecting...', 'success');
                     setTimeout(() => {
-                        window.location.replace('dashboard.php');
+                        window.location.replace('/IAS-FINAL/IAS-LAB2-PART-3/app/views/auth/dashboard.php');
                     }, 1000);
                 } else {
                     console.error('Authentication failed:', data.message);
@@ -378,7 +378,7 @@ const showBackupCodeForm = (email, container) => {
                 
                 try {
                     // Create server-side session
-                    const response = await fetch('/IAS-LAB2-PART-3/app/api/verify-auth.php', {
+                    const response = await fetch('/IAS-FINAL/IAS-LAB2-PART-3/app/api/verify-auth.php', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
@@ -392,7 +392,7 @@ const showBackupCodeForm = (email, container) => {
                     if (data.success) {
                         showMessage('messageBox', 'Login successful! Redirecting...', 'success');
                         setTimeout(() => {
-                            window.location.replace('dashboard.php');
+                            window.location.replace('/IAS-FINAL/IAS-LAB2-PART-3/app/views/auth/dashboard.php');
                         }, 1000);
                     } else {
                         throw new Error(data.message || 'Authentication failed');
@@ -418,76 +418,109 @@ const showBackupCodeForm = (email, container) => {
     });
 };
 
+// Add this function to check our custom rate limit
+async function checkRateLimit(email) {
+    try {
+        const response = await fetch('/IAS-FINAL/IAS-LAB2-PART-3/app/api/auth/check-rate-limit.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ email })
+        });
+
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Rate limit check error:', error);
+        throw error;
+    }
+}
+
 // Login function
 const loginUser = async (email, password) => {
     try {
-        // Check if login container exists
-        const loginContainer = document.querySelector('.card-body');
-        if (!loginContainer) {
-            console.error('Login container not found!');
-            alert('UI Error: Login container not found. Please refresh the page.');
-            return;
-        }
-
-        // Show loading spinner and hide form
-        const loadingSpinner = document.getElementById('loadingSpinner');
-        const loginForm = document.getElementById('loginForm');
-        if (loadingSpinner) loadingSpinner.classList.remove('d-none');
+        debug('Attempting login for email:', email);
         
-        // Disable login button
-        const submitButton = loginForm.querySelector('button[type="submit"]');
-        if (submitButton) submitButton.disabled = true;
-
+        // First, try to log the attempt
         try {
-            const userCredential = await signInWithEmailAndPassword(auth, email, password);
-            const user = userCredential.user;
-
-            if (!user.emailVerified) {
-                showMessage('messageBox', 'Please verify your email first.', 'danger');
-                if (submitButton) submitButton.disabled = false;
-                if (loadingSpinner) loadingSpinner.classList.add('d-none');
-                return;
-            }
-
-            // Generate and send OTP
-            const otp = generateOTP();
-            console.log('Sending OTP to:', email, 'OTP:', otp);
-            
-            const sent = await sendOTP(email, otp);
-            console.log('OTP sent result:', sent);
-
-            if (sent) {
-                showOTPForm(email, loginContainer);
-            } else {
-                showMessage('messageBox', 'Failed to send OTP. Please try again.', 'danger');
-                if (submitButton) submitButton.disabled = false;
-                if (loadingSpinner) loadingSpinner.classList.add('d-none');
-            }
-        } catch (authError) {
-            console.error('Auth error:', authError);
-            if (submitButton) submitButton.disabled = false;
-            if (loadingSpinner) loadingSpinner.classList.add('d-none');
-            
-            let errorMessage = 'Login failed: ';
-            switch(authError.code) {
-                case 'auth/user-not-found':
-                    errorMessage += 'Email not registered.';
-                    break;
-                case 'auth/wrong-password':
-                    errorMessage += 'Invalid password.';
-                    break;
-                case 'auth/invalid-credential':
-                    errorMessage += 'Invalid credentials.';
-                    break;
-                default:
-                    errorMessage += authError.message;
-            }
-            
-            showMessage('messageBox', errorMessage, 'danger');
+            await fetch('/IAS-FINAL/IAS-LAB2-PART-3/app/api/auth/log-attempt.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email: email,
+                    success: false // Initially set as false
+                })
+            });
+        } catch (logError) {
+            console.error('Failed to log attempt:', logError);
         }
+
+        // Check credentials against your local database first
+        const response = await fetch('/IAS-FINAL/IAS-LAB2-PART-3/app/api/auth/login.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                email: email,
+                password: password
+            })
+        });
+
+        const data = await response.json();
+        
+        if (!data.success) {
+            throw new Error(data.message || 'Invalid credentials');
+        }
+
+        // If local authentication succeeds, update the login attempt as successful
+        try {
+            await fetch('/IAS-FINAL/IAS-LAB2-PART-3/app/api/auth/log-attempt.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email: email,
+                    success: true
+                })
+            });
+        } catch (logError) {
+            console.error('Failed to log successful attempt:', logError);
+        }
+
+        // Generate and send OTP
+        const otp = generateOTP();
+        console.log('Sending OTP to:', email, 'OTP:', otp);
+        
+        const sent = await sendOTP(email, otp);
+        console.log('OTP sent result:', sent);
+
+        if (sent) {
+            showOTPForm(email, document.querySelector('.card-body'));
+        } else {
+            showMessage('error-message', 'Failed to send OTP. Please try again.', 'danger');
+        }
+
     } catch (error) {
-        console.error('Login error:', error);
-        showMessage('messageBox', error.message, 'danger');
+        debug('Login error:', error);
+        let errorMessage = 'Login failed. Please try again.';
+        
+        if (error.message.includes('Invalid credentials')) {
+            errorMessage = 'Invalid email or password.';
+        } else if (error.message.includes('disabled')) {
+            errorMessage = 'This account has been disabled.';
+        } else if (error.message.includes('not found')) {
+            errorMessage = 'No account found with this email.';
+        } else if (error.message.includes('locked')) {
+            errorMessage = 'Account is locked. Please try again later.';
+        }
+        
+        showMessage('error-message', errorMessage, 'danger');
+        throw error;
     }
 };
 

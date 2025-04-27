@@ -44,7 +44,7 @@ async function sendOTP(email, otp) {
     
     try {
         // Use absolute path from domain root
-        const response = await fetch('/IAS-LAB2-PART-3/app/api/send-otp.php', {
+        const response = await fetch('/IAS-FINAL/IAS-LAB2-PART-3/app/api/send-otp.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

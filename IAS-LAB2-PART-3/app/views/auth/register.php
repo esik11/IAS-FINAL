@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register - IAS Authentication</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/IAS-LAB2-PART-3/assets/css/style.css" rel="stylesheet">
+    <link href="/IAS-FINAL/IAS-LAB2-PART-3/assets/css/style.css" rel="stylesheet">
 </head>
 <body class="bg-light">
     <div class="container mt-5">
@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <script type="module" src="/IAS-LAB2-PART-3/assets/js/firebase-config.js"></script>
-    <script type="module" src="/IAS-LAB2-PART-3/assets/js/auth.js"></script>
+    <script type="module" src="/IAS-FINAL/IAS-LAB2-PART-3/assets/js/firebase-config.js"></script>
+    <script type="module" src="/IAS-FINAL/IAS-LAB2-PART-3/assets/js/auth.js"></script>
 </body>
 </html>

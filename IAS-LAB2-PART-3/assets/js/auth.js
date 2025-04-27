@@ -103,7 +103,7 @@ const handleRegister = async (e) => {
         const backupCodes = generateBackupCodes();
         
         // Store user and backup codes in database
-        const response = await fetch('/IAS-LAB2-PART-3/app/api/auth/register.php', {
+        const response = await fetch('/IAS-FINAL/IAS-LAB2-PART-3/app/api/auth/register.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -154,7 +154,7 @@ const handleLogin = async (e) => {
         }
         
         // Login successful, redirect to OTP verification
-        window.location.href = '/IAS-LAB2-PART-3/app/views/auth/verify-otp.php';
+        window.location.href = '/IAS-FINAL/IAS-LAB2-PART-3/app/views/auth/verify-otp.php';
         
     } catch (error) {
         console.error('Login error:', error);
